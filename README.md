@@ -1,9 +1,14 @@
-# Employee Sentiment Analysis
+# Employee Sentiment Analysis  
+
+**Project by:** Mohammed Ommar  
+MS in Finance, W. P. Carey School of Business, Arizona State University  
+
+---
 
 This repository contains a complete solution for the **Employee Sentiment Analysis** project. It labels messages, performs EDA, computes monthly sentiment scores, ranks employees, identifies flight risks, and builds a simple predictive linear regression model.
 
 ## Project Structure
-```
+
 .
 ├── main.ipynb
 ├── labeled_messages.csv
@@ -23,6 +28,7 @@ This repository contains a complete solution for the **Employee Sentiment Analys
 │   └── Problem_Statement.pdf  (*placeholder note about conversion*)
 └── README.md
 ```
+
 
 ## Quick Start
 1. Place the dataset at `data/test.csv` (already added by this bundle).
@@ -55,3 +61,9 @@ This repository contains a complete solution for the **Employee Sentiment Analys
 - Add topic modeling (LDA) to cluster concerns.
 - Build a classification model with weak labels (pseudo-labeling) if gold labels become available.
 - Use regularization (Ridge/Lasso) or tree models for the predictive task.
+
+---
+
+## Author  
+**Mohammed Ommar**  
+MS in Finance, W. P. Carey School of Business, Arizona State University  
